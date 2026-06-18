@@ -18,7 +18,7 @@ https://github.com/eager-31/smart-irrigation-system-esp32
 ![Circuit Diagram](images/circuit_diagram.png)
 
 ### Output Diagram
-images/output_image.png
+![Output Diagram](images/output_image.png)
 
 
 Overview
