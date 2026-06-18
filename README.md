@@ -82,10 +82,15 @@ smart-irrigation-esp32/
 ---
 Future Improvements
 📡 MQTT Integration — publish sensor data to a broker
+
 📱 Blynk Dashboard — mobile-based monitoring and control
+
 ☁️ Cloud Data Logging — store historical sensor readings
+
 🔔 Mobile Notifications — alert on critical moisture levels
+
 🔌 Relay-Controlled Water Pump — real hardware pump integration
+
 ---
 Author
 Deepak Birajee  
