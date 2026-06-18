@@ -17,8 +17,8 @@ https://github.com/eager-31/smart-irrigation-system-esp32
 ### Circuit Diagram
 ![Circuit Diagram](images/circuit_diagram.png)
 
-### Pump ON Condition
-![Pump ON](images/pump_on.png)
+### Output Diagram
+images/output_image.png
 
 
 Overview
