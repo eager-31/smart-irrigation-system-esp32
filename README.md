@@ -25,22 +25,39 @@ Overview
 An IoT-based Smart Irrigation and Environmental Monitoring System built with the ESP32 microcontroller, DHT22 sensor, and a soil moisture sensor. The system continuously monitors soil and environmental conditions, and automatically triggers irrigation when soil moisture drops below a predefined threshold — eliminating the need for manual intervention.
 ---
 Features
+
 🌡️ Real-time temperature monitoring via DHT22
+
 💧 Real-time humidity monitoring via DHT22
+
 🌾 Continuous soil moisture sensing
+
 ⚙️ Automatic pump ON/OFF control based on moisture threshold
+
 🔴 LED indicator for pump status
+
 📟 Live sensor output via Serial Monitor
+
+
 🖥️ Wokwi simulation support for hardware-free testing
 ---
+
 Components Used
+
 Component	Description
+
 ESP32	Main microcontroller
+
 DHT22	Temperature & Humidity sensor
+
 Soil Moisture Sensor	Simulated using a potentiometer in Wokwi
+
 LED	Visual pump ON/OFF indicator
+
 ---
+
 System Workflow
+
 ```
 Start
   │
@@ -55,20 +72,35 @@ Start
 ```
 ---
 Working
+
 ESP32 reads the soil moisture level via ADC.
+
 ESP32 reads temperature and humidity from the DHT22 sensor.
+
 If soil moisture is below the threshold:
+
 Pump turns ON (LED lights up as indicator).
+
 Otherwise:
+
 Pump remains OFF.
+
 All sensor data is continuously printed to the Serial Monitor.
+
 ---
+
 Technologies Used
+
 Embedded C++ — firmware logic
+
 ESP32 — microcontroller with built-in ADC and Wi-Fi
+
 ADC (Analog-to-Digital Conversion) — for soil moisture reading
+
 IoT — sensor-driven automated control
+
 Wokwi — browser-based simulation environment
+
 ---
 Project Structure
 ```
