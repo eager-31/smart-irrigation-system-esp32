@@ -73,7 +73,7 @@ DHT22 + Soil Moisture Sensor
 
 ### Blynk Dashboard
 
-images/dashboard_output.png
+![Dashboard Output](images/dashboard_output.png)
 
 ---
 
